@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SpaceTour.com — Premium Domain For Sale</title>
+  <meta name="description" content="SpaceTour.com — premium domain ideal for space tourism brands, orbital travel marketplaces, experiential travel operators, and aerospace consumer platforms. Submit an offer to purchase." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://spacetour.com/" />
+  <meta name="theme-color" content="#071029" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SpaceTour.com — Premium Domain For Sale" />
+  <meta property="og:description" content="SpaceTour.com — brandable domain for space tourism, orbital experiences, travel marketplaces and experiential travel brands. Contact domain@spacetour.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://spacetour.com/" />
+  <meta property="og:image" content="https://spacetour.com/og-image.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SpaceTour.com — Premium Domain For Sale" />
+  <meta name="twitter:description" content="SpaceTour.com — brandable domain for space tourism, orbital trips, experiential travel and aerospace consumer platforms." />
+  <meta name="twitter:image" content="https://spacetour.com/og-image.png" />
+
+  <link rel="icon" href="/favicon.ico" />
+
+  <style>
+    :root{
+      --max-width:1120px;
+      --bg-deep:#030316;
+      --nebula-1:#0b2545;
+      --nebula-2:#2b1152;
+      --panel:#ffffff;
+      --ink:#05202a;
+      --muted:#98a8b3;
+      --primary:#7ee7ff;   /* cool cyan accent */
+      --accent:#ffd166;    /* warm highlight */
+      --card-glass: rgba(255,255,255,0.02);
+      --radius:16px;
+      --shadow: 0 30px 110px rgba(2,8,18,0.7);
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0}
+    body{
+      min-height:100vh;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      padding:40px 20px;
+      color:var(--primary);
+      background:
+        radial-gradient(800px 300px at 10% 12%, rgba(126,231,255,0.03), transparent 12%),
+        linear-gradient(180deg,var(--bg-deep) 0%, #071029 70%);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+      overflow-x:hidden;
+    }
+
+    /* Visual direction: "Celestial Voyage"
+       - deep-space stage with nebula band, subtle starfield and floating mission tokens
+       - palette: deep indigo with cyan & warm highlights
+       - decorative layers pointer-events:none so UI stays fully interactive
+    */
+    .bg { position:fixed; inset:0; z-index:0; pointer-events:none; overflow:visible; }
+
+    .nebula-band {
+      position:fixed;
+      left:50%;
+      top:8%;
+      transform:translateX(-50%);
+      width:1100px;
+      height:320px;
+      z-index:0;
+      border-radius:18px;
+      pointer-events:none;
+      background:
+        radial-gradient(600px 220px at 22% 20%, rgba(126,231,255,0.04), transparent 12%),
+        radial-gradient(500px 200px at 78% 60%, rgba(255,209,102,0.03), transparent 12%),
+        linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      mix-blend-mode:screen;
+      box-shadow: inset 0 22px 56px rgba(0,0,0,0.45);
+      opacity:0.95;
+    }
+
+    .starfield {
+      position:fixed;
+      inset:0;
+      z-index:0;
+      pointer-events:none;
+      background-image: radial-gradient(circle at 10% 10%, rgba(255,255,255,0.06) 1px, transparent 1px),
+                        radial-gradient(circle at 50% 20%, rgba(255,255,255,0.04) 1px, transparent 1px),
+                        radial-gradient(circle at 80% 70%, rgba(255,255,255,0.03) 1px, transparent 1px);
+      background-size: 1200px 1200px, 900px 900px, 600px 600px;
+      opacity:0.25;
+      mix-blend-mode:screen;
+      filter: blur(0.6px);
+    }
+
+    .tokens { position:fixed; inset:0; z-index:0; pointer-events:none; overflow:visible; }
+
+    .token {
+      position:absolute;
+      width:84px;
+      height:84px;
+      background-size:contain;
+      background-repeat:no-repeat;
+      opacity:0.12;
+      will-change:transform,opacity;
+      filter: drop-shadow(0 18px 40px rgba(0,0,0,0.6));
+    }
+
+    @keyframes floaty {
+      0%{ transform: translateY(0) rotate(-6deg); }
+      50%{ transform: translateY(-18px) rotate(6deg); }
+      100%{ transform: translateY(0) rotate(-6deg); }
+    }
+
+    .container{
+      width:100%;
+      max-width:var(--max-width);
+      padding:34px;
+      border-radius:18px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      box-shadow:var(--shadow);
+      border:1px solid rgba(255,255,255,0.03);
+      position:relative;
+      z-index:2;
+      color:var(--primary);
+    }
+
+    header{ display:flex; gap:18px; align-items:center; justify-content:space-between; margin-bottom:12px; }
+    .brand{ display:flex; gap:14px; align-items:center; }
+    .logo{
+      width:96px; height:96px; border-radius:14px;
+      background:linear-gradient(135deg,var(--primary), #2dd4e0);
+      color:#042826; display:flex; align-items:center; justify-content:center;
+      font-weight:900; font-size:20px; flex-shrink:0;
+      box-shadow: 0 14px 40px rgba(0,0,0,0.5);
+      color:#001a1f;
+    }
+
+    h1{ margin:0; font-size:26px; color:var(--primary); }
+    p.lead{ margin:6px 0 0; color:var(--muted); font-size:14px; max-width:760px; }
+
+    .grid{ display:grid; grid-template-columns: 1fr 380px; gap:26px; align-items:start; margin-top:18px; }
+
+    .hero {
+      padding:22px; border-radius:12px; color:var(--primary);
+      background: linear-gradient(90deg, rgba(126,231,255,0.02), rgba(255,209,102,0.01));
+      border:1px solid rgba(255,255,255,0.03);
+      display:flex; gap:18px; align-items:center; justify-content:space-between;
+    }
+    .hero h2{ margin:0 0 8px 0; font-size:20px; color:var(--accent); }
+    .hero p{ margin:0; color:var(--muted); }
+
+    .panel {
+      background: var(--card-glass);
+      color:var(--primary);
+      padding:20px;
+      border-radius:12px;
+      box-shadow: 0 12px 48px rgba(0,0,0,0.5);
+      border: 1px solid rgba(255,255,255,0.03);
+    }
+
+    h2.section{ margin-top:0; font-size:18px; color:var(--primary); }
+    .features ul{ margin:0; padding-left:18px; color:var(--muted); }
+    .features li{ margin-bottom:10px; }
+
+    .samples{ display:flex; gap:12px; margin-top:12px; flex-wrap:wrap; }
+    .sample{ min-width:140px; padding:12px; border-radius:12px; background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); color:var(--muted); font-weight:700; text-align:center; }
+
+    .cta-row{ display:flex; gap:12px; margin-top:16px; flex-wrap:wrap; align-items:center; }
+    .btn{ display:inline-flex; gap:10px; align-items:center; padding:10px 16px; border-radius:999px; font-weight:800; cursor:pointer; text-decoration:none; border:0; color:#042826; }
+    .btn-primary{ background:linear-gradient(90deg,var(--primary), var(--accent)); color:#042826; box-shadow: 0 14px 44px rgba(0,0,0,0.5); }
+    .btn-ghost{ background:transparent; border:1px solid rgba(255,255,255,0.06); color:var(--muted); }
+
+    .contact-card{
+      position:sticky;
+      top:32px;
+      align-self:start;
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      padding:18px;
+      border-radius:12px;
+      border:1px solid rgba(255,255,255,0.03);
+      box-shadow:0 14px 36px rgba(0,0,0,0.45);
+      color:var(--primary);
+      max-width:380px;
+    }
+
+    .contact-card h3{ margin:0 0 8px 0; font-size:16px; color:var(--primary); }
+    .contact-email, .contact-email a{ display:inline-block; font-weight:800; color:var(--accent); text-decoration:none; }
+
+    label{ display:block; font-size:13px; color:var(--muted); margin-bottom:6px; }
+    input, textarea {
+      width:100%;
+      padding:10px 12px;
+      border-radius:8px;
+      border:1px solid rgba(255,255,255,0.06);
+      margin-bottom:12px;
+      font-size:14px;
+      color:#042826;
+      background:#fff;
+    }
+    textarea{ min-height:110px; resize:vertical; }
+
+    footer{ margin-top:18px; color:var(--muted); font-size:13px; text-align:center }
+
+    @media (max-width:980px){
+      .grid{ grid-template-columns:1fr; gap:18px; }
+      .contact-card{ position:relative; top:auto; width:100%; max-width:none; }
+      .container{ padding:24px; }
+      .nebula-band, .starfield, .tokens { display:none; }
+      .logo{ width:76px; height:76px; border-radius:12px; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"WebSite",
+        "url":"https://spacetour.com",
+        "name":"SpaceTour.com",
+        "description":"SpaceTour.com — premium domain for space tourism, orbital experiences, travel marketplaces and experiential travel brands."
+      },
+      {
+        "@type":"Organization",
+        "name":"SpaceTour.com",
+        "url":"https://spacetour.com",
+        "contactPoint":[
+          {
+            "@type":"ContactPoint",
+            "contactType":"sales",
+            "email":"domain@spacetour.com"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="nebula-band" aria-hidden="true"></div>
+    <div class="starfield" aria-hidden="true"></div>
+    <div class="tokens" id="tokens" aria-hidden="true"></div>
+  </div>
+
+  <main class="container" role="main" aria-labelledby="main-heading">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true">ST</div>
+        <div>
+          <h1 id="main-heading">SpaceTour.com</h1>
+          <p class="lead">Premium domain for space tourism, orbital experiences, travel marketplaces and experiential travel brands.</p>
+        </div>
+      </div>
+
+      <div style="text-align:right">
+        <div style="color:var(--muted);font-size:13px">For inquiries</div>
+        <div class="contact-email"><a href="mailto:domain@spacetour.com">domain@spacetour.com</a></div>
+      </div>
+    </header>
+
+    <section class="grid" aria-label="Main content">
+      <div>
+        <div class="hero" role="note" aria-live="polite" aria-labelledby="hero-title">
+          <div>
+            <h2 id="hero-title">A name built for the next era of travel</h2>
+            <p>SpaceTour.com signals instant category fit for brands that sell experiences beyond Earth — ideal for operators, marketplaces, travel designers, and consumer platforms focused on orbital & suborbital tourism.</p>
+
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#" id="inquireBtn">Make an Offer</a>
+              <a class="btn btn-ghost" href="mailto:domain@spacetour.com?subject=Domain%20Offer%20-%20SpaceTour.com">Email Now</a>
+            </div>
+          </div>
+
+          <div style="min-width:220px; text-align:center">
+            <div style="color:var(--muted); font-size:13px">Domain</div>
+            <div style="font-weight:900; font-size:18px; margin-top:6px; color:var(--primary)">SpaceTour.com</div>
+            <div style="color:var(--muted); font-size:13px; margin-top:8px">Serious offers only.</div>
+          </div>
+        </div>
+
+        <article class="panel" aria-labelledby="why-title" style="margin-top:18px">
+          <h2 id="why-title" class="section">Why SpaceTour.com?</h2>
+          <p class="lead" style="color:var(--muted)">Clear, evocative and category-defining — a name that communicates travel to space in plain language, useful for consumer marketing, partner channels and investor storytelling.</p>
+
+          <div class="features" style="margin-top:12px">
+            <ul>
+              <li>Immediate category signal — consumers understand the product instantly</li>
+              <li>Fits operators, travel marketplaces, tour designers, and experiential brands</li>
+              <li>Brandable across web, mobile, booking flows, media and partnerships</li>
+            </ul>
+          </div>
+
+          <div class="samples" aria-hidden="false">
+            <div class="sample">Space Tourism Operator</div>
+            <div class="sample">Orbital / Suborbital Marketplace</div>
+            <div class="sample">Experiential Travel Agency</div>
+            <div class="sample">Consumer Booking & Concierge Platform</div>
+          </div>
+        </article>
+
+        <article class="panel" style="margin-top:18px" aria-labelledby="about-title">
+          <h3 id="about-title" style="margin-top:0">About this domain</h3>
+          <p class="lead" style="color:var(--muted)">SpaceTour.com is a premium domain available for transfer.</p>
+
+          <ul style="color:var(--muted);margin-top:12px">
+            <li>Well-suited to founders, operators, travel platforms, agencies and investor syndicates</li>
+            <li>Useful for integrations with booking, CRM, payments, and partner distribution</li>
+            <li>We use escrow to ensure a smooth, secure transfer for both buyer and seller.</li>
+          </ul>
+
+          <div style="margin-top:12px; font-size:13px; color:var(--muted); border-top:1px dashed rgba(255,255,255,0.03); padding-top:12px">
+            Helpful resource: <a href="https://corelli.com/domains.html" target="_blank" rel="noopener noreferrer" style="color:var(--primary)">How To Choose A Domain Name</a>
+          </div>
+        </article>
+      </div>
+
+      <aside class="contact-card" aria-label="Contact & offer">
+        <div>
+          <h3 style="margin-top:0">Contact & Offer</h3>
+          <p style="margin-top:6px;color:var(--muted)">Submit an offer by emailing <a href="mailto:domain@spacetour.com" style="color:var(--accent)">domain@spacetour.com</a> or click "Make an Offer" to open your mail client.</p>
+
+          <div style="margin-top:12px; font-size:13px; color:var(--muted)">
+            <strong>Escrow:</strong> We use escrow to ensure a smooth, secure transfer for both buyer and seller.
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      &copy; 2025 SpaceTour.com. All rights reserved.
+    </footer>
+  </main>
+
+  <script>
+    // decorative mission tokens (rocket, planet, telescope, flag) as SVG data URIs
+    (function placeTokens(){
+      const layer = document.getElementById('tokens');
+      if(!layer) return;
+
+      const svgs = {
+        rocket: encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><path d='M12 52s6-10 12-14c6-4 16-12 22-20 0 0 0 8-6 14s-22 20-28 20z' fill='%23FFF6E6' stroke='%23000000' stroke-opacity='0.03'/></svg>`),
+        planet: encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='18' fill='%23E9FBFF' opacity='0.06'/><path d='M6 34c40-4 52-16 52-16' stroke='%23000000' stroke-opacity='0.03' fill='none'/></svg>`),
+        telescope: encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='8' y='20' width='32' height='10' rx='4' fill='%23FFF6E6' stroke='%23000000' stroke-opacity='0.03'/></svg>`),
+        flag: encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 64'><rect x='6' y='6' width='36' height='32' rx='3' fill='%23FFD166' opacity='0.95'/></svg>`)
+      };
+
+      const items = [
+        {svg:svgs.rocket, left:'8%', top:'18%', size:96, dur:9200},
+        {svg:svgs.planet, left:'78%', top:'16%', size:86, dur:11000},
+        {svg:svgs.telescope, left:'48%', top:'66%', size:76, dur:10000},
+        {svg:svgs.flag, left:'84%', top:'54%', size:70, dur:12000}
+      ];
+
+      items.forEach(it=>{
+        const el = document.createElement('div');
+        el.className = 'token';
+        el.style.left = it.left;
+        el.style.top = it.top;
+        el.style.width = it.size + 'px';
+        el.style.height = it.size + 'px';
+        el.style.backgroundImage = `url("data:image/svg+xml;utf8,${it.svg}")`;
+        el.style.animation = `floaty ${it.dur}ms ease-in-out ${Math.random()*1200}ms infinite`;
+        el.style.opacity = 0.06 + Math.random()*0.18;
+        layer.appendChild(el);
+      });
+    })();
+
+    // Make an Offer button: prefill mailto
+    document.getElementById('inquireBtn').addEventListener('click', function(e){
+      e.preventDefault();
+      const subject = encodeURIComponent('Domain Offer - SpaceTour.com');
+      const body = encodeURIComponent('Hi — I would like to make an offer for SpaceTour.com. Please reply with transfer instructions and next steps.');
+      window.location.href = `mailto:domain@spacetour.com?subject=${subject}&body=${body}`;
+    });
+  </script>
+</body>
+</html>
